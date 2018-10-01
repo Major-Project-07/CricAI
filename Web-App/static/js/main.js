@@ -221,3 +221,31 @@ let populate = function() {
 }
 
 window.onload = populate();
+
+$('#team-1').on('change', function() {
+    console.log('T1'+ this.value);
+    console.log('T2' + $('#team-2').val());
+    if($('#team-2').val() == this.value)
+    {
+        alert("Both teams chosen are same");
+        $(':input[type="submit"]').prop('disabled', true);
+    }
+    else
+    {
+        $(':input[type="submit"]').prop('disabled', false);
+    }
+});
+
+$('#team-2').on('change', function() {
+    console.log('T2'+ this.value);
+    console.log('T1' + $('#team-1').val());
+    if($('#team-1').val() == this.value)
+    {
+        alert("Both teams chosen are same");
+        $(':input[type="submit"]').prop('disabled', true);
+    }
+    else
+    {
+        $(':input[type="submit"]').prop('disabled', false);
+    }
+});
