@@ -25,5 +25,4 @@
 3. See Individual Apps' README.md for Build-Specific Instructions.
  
 ### License :-
-This project is currently licensed under the MIT License & Copyright (c) 2017 Jalaz Kumar.  
-For more details see [LICENSE.md](https://github.com/jaykay12/CricAI/blob/master/LICENSE).
+This project is currently licensed under the MIT License & Copyright (c) 2017 Jalaz Kumar.
