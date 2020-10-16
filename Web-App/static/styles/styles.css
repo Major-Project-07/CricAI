@@ -23,84 +23,6 @@
     border-color: #007bff;
 }
 
-.top-row {
-    margin-top:20px;
-}
-
-#team-1 {
-    margin-left:150px;
-}
-
-#innings {
-    margin-left:70px;
-}
-
-#venue {
-    margin-left:0px;
-}
-
-#groundid {
-    margin-left:30px;
-}
-
-.bottom-row {
-    margin-top:20px;
-}
-
-#team-2 {
-    margin-left:150px;
-}
-
-#choice {
-    margin-left:70px;
-}
-
-
-
-@media screen and (max-width: 768px) {
-    #team-1 {
-        margin-left: 0px;
-    }
-
-    #team-2 {
-        margin-left: 0px;
-    }
-
-    .venue_class {
-        /*flex: 0 0 50%;*/
-        margin-top: 7px;
-        text-align: center;
-    }
-
-    #innings {
-        margin-left: 0px;
-    }
-
-    .ground_class {
-        margin-top: 7px;
-        text-align: center;
-    }
-
-    .team_class {
-        text-align: center;
-    }
-
-    .innings_class {
-        text-align: center;
-    }
-
-    .classifier_class {
-        margin-top: 7px;
-        text-align: center;
-    }
-
-    #choice  {
-        margin-left: 0px;
-    }
-
-}
-
-
 .submitButton {
     margin-top:30px;
 }
@@ -111,4 +33,8 @@
 
 .card-winner {
     width:300px;
+}
+
+.form-group{
+    text-align: center;
 }
